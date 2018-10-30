@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D032275217FFD3F0060E5D7 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D032274217FFD3F0060E5D7 /* imageViewController.swift */; };
+		1D0666DB216E3C9A0086380E /* QuranCollectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0666D9216E3C9A0086380E /* QuranCollectionCollectionViewCell.swift */; };
+		1D0666DC216E3C9A0086380E /* QuranCollectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D0666DA216E3C9A0086380E /* QuranCollectionCollectionViewCell.xib */; };
 		1D77EE6C2166FC0A0023DECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77EE6B2166FC0A0023DECC /* AppDelegate.swift */; };
 		1D77EE6E2166FC0A0023DECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77EE6D2166FC0A0023DECC /* ViewController.swift */; };
 		1D77EE712166FC0A0023DECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D77EE6F2166FC0A0023DECC /* Main.storyboard */; };
 		1D77EE732166FC0D0023DECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D77EE722166FC0D0023DECC /* Assets.xcassets */; };
 		1D77EE762166FC0D0023DECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D77EE742166FC0D0023DECC /* LaunchScreen.storyboard */; };
+		1D77EE80216845450023DECC /* TableCiewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D77EE7F216845450023DECC /* TableCiewControllerTableViewController.swift */; };
+		1DE7C947217AC6F60044F21E /* ObjectColl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7C946217AC6F60044F21E /* ObjectColl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D032274217FFD3F0060E5D7 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
+		1D0666D9216E3C9A0086380E /* QuranCollectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranCollectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D0666DA216E3C9A0086380E /* QuranCollectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuranCollectionCollectionViewCell.xib; sourceTree = "<group>"; };
 		1D77EE682166FC0A0023DECC /* quranTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quranTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D77EE6B2166FC0A0023DECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D77EE6D2166FC0A0023DECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		1D77EE722166FC0D0023DECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D77EE752166FC0D0023DECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D77EE772166FC0D0023DECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D77EE7F216845450023DECC /* TableCiewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCiewControllerTableViewController.swift; sourceTree = "<group>"; };
+		1DE7C946217AC6F60044F21E /* ObjectColl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectColl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,43 @@
 		1D77EE6A2166FC0A0023DECC /* quranTest */ = {
 			isa = PBXGroup;
 			children = (
-				1D77EE6B2166FC0A0023DECC /* AppDelegate.swift */,
-				1D77EE6D2166FC0A0023DECC /* ViewController.swift */,
+				1DE7C945217AC6D60044F21E /* Objects */,
+				1D7CAD072169668300AA0589 /* Cells */,
+				1D7CAD062169666400AA0589 /* Classes */,
 				1D77EE6F2166FC0A0023DECC /* Main.storyboard */,
 				1D77EE722166FC0D0023DECC /* Assets.xcassets */,
 				1D77EE742166FC0D0023DECC /* LaunchScreen.storyboard */,
 				1D77EE772166FC0D0023DECC /* Info.plist */,
 			);
 			path = quranTest;
+			sourceTree = "<group>";
+		};
+		1D7CAD062169666400AA0589 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D77EE7F216845450023DECC /* TableCiewControllerTableViewController.swift */,
+				1D77EE6D2166FC0A0023DECC /* ViewController.swift */,
+				1D77EE6B2166FC0A0023DECC /* AppDelegate.swift */,
+				1D032274217FFD3F0060E5D7 /* imageViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1D7CAD072169668300AA0589 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1D0666D9216E3C9A0086380E /* QuranCollectionCollectionViewCell.swift */,
+				1D0666DA216E3C9A0086380E /* QuranCollectionCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1DE7C945217AC6D60044F21E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1DE7C946217AC6F60044F21E /* ObjectColl.swift */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D77EE762166FC0D0023DECC /* LaunchScreen.storyboard in Resources */,
+				1D0666DC216E3C9A0086380E /* QuranCollectionCollectionViewCell.xib in Resources */,
 				1D77EE732166FC0D0023DECC /* Assets.xcassets in Resources */,
 				1D77EE712166FC0A0023DECC /* Main.storyboard in Resources */,
 			);
@@ -135,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D032275217FFD3F0060E5D7 /* imageViewController.swift in Sources */,
 				1D77EE6E2166FC0A0023DECC /* ViewController.swift in Sources */,
+				1D0666DB216E3C9A0086380E /* QuranCollectionCollectionViewCell.swift in Sources */,
 				1D77EE6C2166FC0A0023DECC /* AppDelegate.swift in Sources */,
+				1D77EE80216845450023DECC /* TableCiewControllerTableViewController.swift in Sources */,
+				1DE7C947217AC6F60044F21E /* ObjectColl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
